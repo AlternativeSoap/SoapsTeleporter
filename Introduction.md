@@ -92,4 +92,5 @@ Players walk into one portal and appear at the other. That's it for a basic setu
 
 ## Next Steps
 
-Head to [Getting Started](Getting-Started) to install the plugin and build your first portal.
+Head to [Getting Started](Getting-Started.mdGetting-Started) to install the plugin and build your first portal.
+

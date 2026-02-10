@@ -52,7 +52,7 @@ You can change these in `config.yml` under `portals.limits`.
 
 ### Portal Limits
 
-You can limit how many portals each player can create and how many portals can exist per world. See [Configuration](Configuration).
+You can limit how many portals each player can create and how many portals can exist per world. See [Configuration](Configuration.mdConfiguration).
 
 ---
 
@@ -208,6 +208,7 @@ Shows every portal with:
 
 ## Next Steps
 
-- [Portal Types](Portal-Types) - Standard, RTP and One-Way portals
-- [Particles and Effects](Particles-and-Effects) - Customize how portals look
-- [Commands and Permissions](Commands-and-Permissions) - Full command reference
+- [Portal Types](Portal-Types.mdPortal-Types) - Standard, RTP and One-Way portals
+- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Customize how portals look
+- [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
+

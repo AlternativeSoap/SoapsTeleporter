@@ -262,6 +262,7 @@ Useful for adventure maps or specific setups where you want to teleport into unu
 
 ## Next Steps
 
-- [Conditions](Conditions) - Set who can use a portal
-- [Economy](Economy) - Charge for portal use
-- [Interactive Management](Interactive-Management) - GUI for managing all settings
+- [Conditions](Conditions.mdConditions) - Set who can use a portal
+- [Economy](Economy.mdEconomy) - Charge for portal use
+- [Interactive Management](Interactive-Management.mdInteractive-Management) - GUI for managing all settings
+

@@ -50,7 +50,7 @@ No extra setup needed. If PlaceholderAPI is installed, placeholders register aut
 
 ---
 
-## Vault (Economy)
+## Vault (Economy.mdEconomy)
 
 Required for money-based portal costs.
 
@@ -186,6 +186,7 @@ These are all **optional**. The plugin works fine without any of them:
 
 ## Next Steps
 
-- [Configuration](Configuration) - All config options
-- [Commands and Permissions](Commands-and-Permissions) - Full command reference
-- [Examples](Examples) - Real setup examples
+- [Configuration](Configuration.mdConfiguration) - All config options
+- [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
+- [Examples](Examples.mdExamples) - Real setup examples
+

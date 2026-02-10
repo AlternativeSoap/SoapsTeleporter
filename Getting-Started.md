@@ -122,7 +122,8 @@ This is detected from the shape of your selection. If it's flat on the ground (1
 
 ## What's Next?
 
-- [Portal Creation](Portal-Creation) - In-depth portal building
-- [Portal Types](Portal-Types) - Standard, RTP and One-Way
-- [Configuration](Configuration) - Customize the plugin
-- [Particles and Effects](Particles-and-Effects) - Make portals look good
+- [Portal Creation](Portal-Creation.mdPortal-Creation) - In-depth portal building
+- [Portal Types](Portal-Types.mdPortal-Types) - Standard, RTP and One-Way
+- [Configuration](Configuration.mdConfiguration) - Customize the plugin
+- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Make portals look good
+

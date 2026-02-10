@@ -137,6 +137,7 @@ These are different things:
 
 ## Next Steps
 
-- [Conditions](Conditions) - More ways to restrict portal access
-- [Commands and Permissions](Commands-and-Permissions) - Full command reference
-- [Interactive Management](Interactive-Management) - Manage costs through the GUI
+- [Conditions](Conditions.mdConditions) - More ways to restrict portal access
+- [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
+- [Interactive Management](Interactive-Management.mdInteractive-Management) - Manage costs through the GUI
+

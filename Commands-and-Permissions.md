@@ -181,6 +181,7 @@ world, biome, gamemode, item, money, advancement, playtime
 
 ## Next Steps
 
-- [Interactive Management](Interactive-Management) - Manage portals with a click-based GUI
-- [Integrations](Integrations) - PlaceholderAPI, WorldGuard and more
-- [Examples](Examples) - Real setup examples
+- [Interactive Management](Interactive-Management.mdInteractive-Management) - Manage portals with a click-based GUI
+- [Integrations](Integrations.mdIntegrations) - PlaceholderAPI, WorldGuard and more
+- [Examples](Examples.mdExamples) - Real setup examples
+

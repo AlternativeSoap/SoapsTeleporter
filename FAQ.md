@@ -123,7 +123,7 @@ Teleportation and chunk preloading use async operations where possible.
 
 **I see errors in console after updating.**
 
-Try `/st reload` first. If errors persist, check that your config files are valid YAML. You can delete the config files and let the plugin regenerate them, or check [Default Config Files](Default-Config-Files) for the correct format.
+Try `/st reload` first. If errors persist, check that your config files are valid YAML. You can delete the config files and let the plugin regenerate them, or check [Default Config Files](Default-Config-Files.mdDefault-Config-Files) for the correct format.
 
 **Self-test says something is wrong.**
 
@@ -143,6 +143,7 @@ Join the support Discord: [discord.gg/mawAzwFq](https://discord.gg/mawAzwFq)
 
 ## Next Steps
 
-- [Getting Started](Getting-Started) - Start from the beginning
-- [Configuration](Configuration) - Full config reference
-- [Commands and Permissions](Commands-and-Permissions) - All commands
+- [Getting Started](Getting-Started.mdGetting-Started) - Start from the beginning
+- [Configuration](Configuration.mdConfiguration) - Full config reference
+- [Commands and Permissions](Commands-and-Permissions.md) - All commands
+

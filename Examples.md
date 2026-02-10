@@ -266,6 +266,7 @@ A complete server portal network:
 
 ## Next Steps
 
-- [Portal Creation](Portal-Creation) - Detailed creation guide
-- [Conditions](Conditions) - All condition types
-- [Particles and Effects](Particles-and-Effects) - Visual customization
+- [Portal Creation](Portal-Creation.mdPortal-Creation) - Detailed creation guide
+- [Conditions](Conditions.mdConditions) - All condition types
+- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Visual customization
+

@@ -319,5 +319,6 @@ The messages file uses **MiniMessage** formatting. Here are some basics:
 
 ## Next Steps
 
-- [Configuration](Configuration) - What each option does
-- [FAQ](FAQ) - Common questions
+- [Configuration](Configuration.mdConfiguration) - What each option does
+- [FAQ](FAQ.mdFAQ) - Common questions
+

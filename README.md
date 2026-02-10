@@ -16,21 +16,21 @@ The plugin works with Paper and Folia servers and supports MiniMessage formattin
 
 | Page | What you'll find |
 |------|-----------------|
-| [Introduction](Introduction) | What the plugin does and its features |
-| [Getting Started](Getting-Started) | Install, create your first portal |
-| [Configuration](Configuration) | Every config option explained |
-| [Portal Creation](Portal-Creation) | Full walkthrough of building portals |
-| [Portal Types](Portal-Types) | Standard, RTP and One-Way portals |
-| [Particles and Effects](Particles-and-Effects) | Customize how portals look and sound |
-| [Conditions](Conditions) | Restrict who can use a portal |
-| [Economy](Economy) | Charge money or items to use portals |
-| [Commands and Permissions](Commands-and-Permissions) | Full command list with permissions |
-| [Interactive Management](Interactive-Management) | The chat-based portal manager |
-| [Integrations](Integrations) | PlaceholderAPI, WorldGuard, Vault and more |
-| [Default Config Files](Default-Config-Files) | Copy-paste ready default configs |
-| [Examples](Examples) | Real-world portal setups |
-| [FAQ](FAQ) | Common questions |
-| [Changelog](Changelog) | Version history |
+| [Introduction](Introduction.mdIntroduction) | What the plugin does and its features |
+| [Getting Started](Getting-Started.mdGetting-Started) | Install, create your first portal |
+| [Configuration](Configuration.mdConfiguration) | Every config option explained |
+| [Portal Creation](Portal-Creation.mdPortal-Creation) | Full walkthrough of building portals |
+| [Portal Types](Portal-Types.mdPortal-Types) | Standard, RTP and One-Way portals |
+| [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) | Customize how portals look and sound |
+| [Conditions](Conditions.mdConditions) | Restrict who can use a portal |
+| [Economy](Economy.mdEconomy) | Charge money or items to use portals |
+| [Commands and Permissions](Commands-and-Permissions.md) | Full command list with permissions |
+| [Interactive Management](Interactive-Management.mdInteractive-Management) | The chat-based portal manager |
+| [Integrations](Integrations.mdIntegrations) | PlaceholderAPI, WorldGuard, Vault and more |
+| [Default Config Files](Default-Config-Files.mdDefault-Config-Files) | Copy-paste ready default configs |
+| [Examples](Examples.mdExamples) | Real-world portal setups |
+| [FAQ](FAQ.mdFAQ) | Common questions |
+| [Changelog](Changelog.mdChangelog) | Version history |
 
 ---
 
@@ -47,3 +47,4 @@ The plugin works with Paper and Folia servers and supports MiniMessage formattin
 - **Server:** Paper or Folia (1.21+)
 - **Java:** 21 or newer
 - **Optional:** Vault + Economy plugin, PlaceholderAPI, WorldGuard, Lands, GriefPrevention, Dynmap, BlueMap
+

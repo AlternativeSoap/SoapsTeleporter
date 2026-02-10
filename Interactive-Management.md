@@ -152,5 +152,6 @@ Paginated lists (like commands and conditions) have Previous/Next buttons.
 
 ## Next Steps
 
-- [Integrations](Integrations) - PlaceholderAPI, WorldGuard and more
-- [Commands and Permissions](Commands-and-Permissions) - Full command reference
+- [Integrations](Integrations.mdIntegrations) - PlaceholderAPI, WorldGuard and more
+- [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
+

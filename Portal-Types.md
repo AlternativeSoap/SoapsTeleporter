@@ -118,6 +118,7 @@ When switching:
 
 ## Next Steps
 
-- [Particles and Effects](Particles-and-Effects) - Customize portal visuals
-- [Conditions](Conditions) - Restrict who can use a portal
-- [Economy](Economy) - Charge for portal use
+- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Customize portal visuals
+- [Conditions](Conditions.mdConditions) - Restrict who can use a portal
+- [Economy](Economy.mdEconomy) - Charge for portal use
+

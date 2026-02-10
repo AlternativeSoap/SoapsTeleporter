@@ -323,6 +323,7 @@ integrations:
 
 ## Next Steps
 
-- [Particles and Effects](Particles-and-Effects) - Customize portal visuals
-- [Conditions](Conditions) - Set usage requirements
-- [Default Config Files](Default-Config-Files) - See the full default files
+- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Customize portal visuals
+- [Conditions](Conditions.mdConditions) - Set usage requirements
+- [Default Config Files](Default-Config-Files.mdDefault-Config-Files) - See the full default files
+
