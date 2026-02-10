@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/SoapsTeleporter-v1.0.0-orange?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/MC-1.21+-green?style=for-the-badge" alt="Minecraft"/>
+  <img src="https://img.shields.io/badge/Paper-Supported-blue?style=for-the-badge" alt="Paper"/>
+</p>
+
 # SoapsTeleporter Wiki
 
 Welcome to the official wiki for **SoapsTeleporter** - a portal system built for PaperMC servers running Minecraft 1.21+.
@@ -47,4 +53,5 @@ The plugin works with Paper and Folia servers and supports MiniMessage formattin
 - **Server:** Paper or Folia (1.21+)
 - **Java:** 21 or newer
 - **Optional:** Vault + Economy plugin, PlaceholderAPI, WorldGuard, Lands, GriefPrevention, Dynmap, BlueMap
+
 
