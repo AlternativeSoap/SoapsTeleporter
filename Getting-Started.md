@@ -8,7 +8,7 @@ This page walks you through installing SoapsTeleporter and creating your first p
 
 | Requirement | Details |
 |-------------|---------|
-| Server | Paper or Folia 1.21+ |
+| Server | Paper 1.21+ |
 | Java | Java 21 or newer |
 | Optional | Vault + economy plugin for costs |
 | Optional | PlaceholderAPI for placeholders |
@@ -25,7 +25,7 @@ This page walks you through installing SoapsTeleporter and creating your first p
 You should see something like this in the console:
 
 ```
-Plugin Loaded: SoapsTeleporter v1.0.0
+Plugin Loaded: SoapsTeleporter v1.0.1
 Created by AlternativeSoap
 ```
 
@@ -85,13 +85,13 @@ Walk into one of your portals. You should:
 - Hear the teleport sound
 - Appear at the other portal
 
-If something seems off, run the self-test:
+If something seems off, run quick diagnostics:
 
 ```
-/st debug selftest
+/st debug issues
+/st debug overlay
 ```
-
-This checks your config files, portal data, particle system and permissions.
+This helps identify configuration, connectivity and performance problems.
 
 ---
 
@@ -122,8 +122,8 @@ This is detected from the shape of your selection. If it's flat on the ground (1
 
 ## What's Next?
 
-- [Portal Creation](Portal-Creation.mdPortal-Creation) - In-depth portal building
-- [Portal Types](Portal-Types.mdPortal-Types) - Standard, RTP and One-Way
-- [Configuration](Configuration.mdConfiguration) - Customize the plugin
-- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Make portals look good
+- [Portal Creation](Portal-Creation.md) - In-depth portal building
+- [Portal Types](Portal-Types.md) - Standard, RTP and One-Way
+- [Configuration](Configuration.md) - Customize the plugin
+- [Particles and Effects](Particles-and-Effects.md) - Make portals look good
 

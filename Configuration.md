@@ -135,6 +135,12 @@ portals:
 | `preserve-orientation` | `true` | Keep the player's current camera direction after teleporting |
 | `auto-adjust-destination` | `true` | If the destination is blocked, try to find a nearby safe spot |
 
+### 1.0.1 Runtime Additions
+
+- Layered rendering now applies adaptive quality and culling automatically.
+- Multi-destination routing is configured per portal (`/st setrouting`, `/st setdestinations`).
+- Condition expressions are configured per portal and evaluated with nested logic.
+
 ---
 
 ## Player Settings
@@ -285,11 +291,11 @@ integrations:
     require-build-permission: true
 ```
 
-### Map Integration (Dynmap / BlueMap)
+### Map Integration (Reserved)
 
 | Option | Default | Description |
 |--------|---------|-------------|
-| `enabled` | `false` | Show portals as markers on web maps |
+| `enabled` | `false` | Reserved for map marker integrations |
 | `show-destination` | `true` | Display destination info in marker popup |
 | `show-status` | `true` | Show enabled/disabled status on map |
 | `portal-icon` | `portal` | Icon name for the map marker |
@@ -311,11 +317,11 @@ integrations:
 | `respect-claims-rtp` | `true` | Avoid RTP landing inside land claims |
 | `require-land-permission` | `true` | Need permission to create portals in claimed land |
 
-### GriefPrevention
+### GriefPrevention (Reserved)
 
 | Option | Default | Description |
 |--------|---------|-------------|
-| `enabled` | `false` | Respect GriefPrevention claims |
+| `enabled` | `false` | Reserved for future claim integration |
 | `respect-claims-rtp` | `true` | Avoid RTP landing inside claims |
 | `require-build-permission` | `true` | Need build trust in claim to create portals |
 
@@ -323,7 +329,7 @@ integrations:
 
 ## Next Steps
 
-- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Customize portal visuals
-- [Conditions](Conditions.mdConditions) - Set usage requirements
-- [Default Config Files](Default-Config-Files.mdDefault-Config-Files) - See the full default files
+- [Particles and Effects](Particles-and-Effects.md) - Customize portal visuals
+- [Conditions](Conditions.md) - Set usage requirements
+- [Default Config Files](Default-Config-Files.md) - See the full default files
 

@@ -1,6 +1,6 @@
 # Interactive Management
 
-SoapsTeleporter includes a chat-based interactive management interface. Instead of typing commands, you can click through menus to configure portals.
+SoapsTeleporter includes an interactive management interface with click-based menus and chat input prompts for values.
 
 ---
 
@@ -75,7 +75,22 @@ Manage portal connections:
 - **Connect Portal** - Link to another portal
 - **Unlink Portal** - Remove connection
 - **Set Type** - Switch between standard/RTP
+- **Set Routing** - Use fixed/random/weighted/permission routing (1.0.1+)
+- **Set Destinations** - Configure multiple destinations (1.0.1+)
 - **Set Direction** - Change exit direction
+
+---
+
+## Builder Preview Tools (1.0.1+)
+
+Shape preview is available by command while building:
+
+```
+/st shapepreview rectangle
+/st shapepreview rotate
+/st shapepreview mirror
+/st shapepreview undo
+```
 
 ---
 
@@ -152,6 +167,6 @@ Paginated lists (like commands and conditions) have Previous/Next buttons.
 
 ## Next Steps
 
-- [Integrations](Integrations.mdIntegrations) - PlaceholderAPI, WorldGuard and more
+- [Integrations](Integrations.md) - PlaceholderAPI, WorldGuard and more
 - [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
 

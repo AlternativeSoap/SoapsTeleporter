@@ -16,6 +16,15 @@ Standard portals require a connection to work. Use `/st connect <source> <target
 
 By default, standard connections are two-way. Walking into either portal sends you to the other.
 
+### Multi-Destination Standard Routing (1.0.1+)
+
+Standard portals can also route to multiple destinations:
+
+```
+/st setrouting <portal> <fixed|random|weighted|permission>
+/st setdestinations <portal> <dest1,dest2,...>
+```
+
 ---
 
 ## RTP Portals (Random Teleport)
@@ -118,7 +127,7 @@ When switching:
 
 ## Next Steps
 
-- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Customize portal visuals
-- [Conditions](Conditions.mdConditions) - Restrict who can use a portal
-- [Economy](Economy.mdEconomy) - Charge for portal use
+- [Particles and Effects](Particles-and-Effects.md) - Customize portal visuals
+- [Conditions](Conditions.md) - Restrict who can use a portal
+- [Economy](Economy.md) - Charge for portal use
 

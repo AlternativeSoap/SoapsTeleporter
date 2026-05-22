@@ -52,6 +52,21 @@ Customize each portal:
 /st setcolor hub_to_shops 0 255 0
 ```
 
+### Multi-Destination Route (1.0.1+)
+
+```
+/st add hub_router
+/st setrouting hub_router random
+/st setdestinations hub_router shops,pvp_arena,farm_world
+```
+
+Weighted route example:
+
+```
+/st setrouting hub_router weighted
+/st setdestinations hub_router shops|3,pvp_arena|1,farm_world|2
+```
+
 ---
 
 ## Paid Nether Portal
@@ -266,7 +281,7 @@ A complete server portal network:
 
 ## Next Steps
 
-- [Portal Creation](Portal-Creation.mdPortal-Creation) - Detailed creation guide
-- [Conditions](Conditions.mdConditions) - All condition types
-- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Visual customization
+- [Portal Creation](Portal-Creation.md) - Detailed creation guide
+- [Conditions](Conditions.md) - All condition types
+- [Particles and Effects](Particles-and-Effects.md) - Visual customization
 

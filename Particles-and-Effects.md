@@ -126,6 +126,8 @@ Lower values = more frequent updates = smoother animation but more server load.
 
 When enabled in config (`volumetric-rendering: true`), particles fill the entire 3D space of the portal instead of just the edges. This is enabled by default and applies globally.
 
+As of 1.0.1, rendering runs through a layered pipeline with adaptive quality and visibility culling for better large-server performance.
+
 ---
 
 ## Sounds
@@ -262,7 +264,7 @@ Useful for adventure maps or specific setups where you want to teleport into unu
 
 ## Next Steps
 
-- [Conditions](Conditions.mdConditions) - Set who can use a portal
-- [Economy](Economy.mdEconomy) - Charge for portal use
-- [Interactive Management](Interactive-Management.mdInteractive-Management) - GUI for managing all settings
+- [Conditions](Conditions.md) - Set who can use a portal
+- [Economy](Economy.md) - Charge for portal use
+- [Interactive Management](Interactive-Management.md) - UI for managing all settings
 

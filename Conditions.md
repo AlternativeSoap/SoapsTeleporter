@@ -201,6 +201,27 @@ This portal only works at night, for players level 20 or above, who have a diamo
 
 ---
 
+## Expression Conditions (1.0.1+)
+
+You can also define a portal condition expression for nested logic (AND/OR/NOT):
+
+```
+(player_level>=10 AND has_permission:st.portal.use.vip) OR is_admin
+```
+
+Supported expression tokens include:
+- `is_admin`
+- `has_permission:<node>`
+- `player_level>=<number>`
+- `player_level><number>`
+- `online_players>=<number>`
+- `server_tps>=<number>`
+- existing condition tokens like `DAY`, `NIGHT`, `RAIN`, `MONEY <amount>`, etc.
+
+If an expression is set, it is evaluated alongside regular portal conditions.
+
+---
+
 ## Interactive Management
 
 The easiest way to manage conditions is through the interactive management interface:
@@ -209,13 +230,13 @@ The easiest way to manage conditions is through the interactive management inter
 /st manage <portal>
 ```
 
-Click **[Conditions & Requirements]** to see a menu where you can add and remove conditions by clicking buttons in chat. See [Interactive Management](Interactive-Management.mdInteractive-Management) for more.
+Click **[Conditions & Requirements]** to see a menu where you can add and remove conditions by clicking buttons in chat. See [Interactive Management](Interactive-Management.md) for more.
 
 ---
 
 ## Next Steps
 
-- [Economy](Economy.mdEconomy) - Charge money or items to use portals
-- [Portal Types](Portal-Types.mdPortal-Types) - Standard, RTP, One-Way
+- [Economy](Economy.md) - Charge money or items to use portals
+- [Portal Types](Portal-Types.md) - Standard, RTP, One-Way
 - [Commands and Permissions](Commands-and-Permissions.md) - Full command list
 

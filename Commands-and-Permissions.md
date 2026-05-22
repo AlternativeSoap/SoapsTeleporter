@@ -15,7 +15,6 @@ Every command and permission in SoapsTeleporter. The main command is `/st` (alia
 | `/st set p2` | Set position 2 at your location | `st.command.set` |
 | `/st add <name>` | Create a portal from your selection | `st.command.add` |
 | `/st remove <portal>` | Delete a portal | `st.command.remove` |
-| `/st duplicate <source> <newname>` | Copy a portal with all settings | `st.command.add` |
 
 ### Portal Connections
 
@@ -58,10 +57,13 @@ Every command and permission in SoapsTeleporter. The main command is `/st` (alia
 |---------|-------------|------------|
 | `/st setdirection <portal> <direction>` | Set exit direction | `st.command.setdirection` |
 | `/st settype <portal> <standard\|rtp> [world] [min] [max]` | Change portal type | `st.command.settype` |
+| `/st setrouting <portal> <fixed\|random\|weighted\|permission>` | Set multi-destination routing mode | `st.command.setrouting` |
+| `/st setdestinations <portal> <dest1,dest2,...>` | Set linked destinations list | `st.command.setdestinations` |
 | `/st setcost <portal> <amount> [type]` | Set usage cost | `st.command.setcost` |
 | `/st setcooldown <portal> <seconds>` | Set cooldown between uses | `st.command.setcooldown` |
 | `/st setwarmup <portal> <seconds>` | Set warmup timer | `st.command.setwarmup` |
 | `/st setdisablesafecheck <portal>` | Toggle safety checks | `st.command.setdisablesafecheck` |
+| `/st shapepreview <preset\|rotate\|mirror\|undo>` | Build preview shape workflow | `st.command.shapepreview` |
 
 ### Conditions
 
@@ -93,6 +95,7 @@ Every command and permission in SoapsTeleporter. The main command is `/st` (alia
 | `/st reload` | Reload all config files | `st.command.reload` |
 | `/st backup` | Create a backup of portal data | `st.command.backup` |
 | `/st debug` | Toggle debug mode | `st.command.debug` |
+| `/st debug overlay` | Show runtime render/condition metrics | `st.command.debug` |
 
 ---
 
@@ -123,6 +126,9 @@ Every command and permission in SoapsTeleporter. The main command is `/st` (alia
 | `st.command.info` | OP | View portal info |
 | `st.command.backup` | OP | Create backups |
 | `st.command.setdirection` | OP | Set portal direction |
+| `st.command.setrouting` | OP | Set routing mode |
+| `st.command.setdestinations` | OP | Set linked destinations |
+| `st.command.shapepreview` | OP | Use shape preview tools |
 | `st.command.settype` | OP | Set portal type |
 | `st.command.setcommand` | OP | Set portal commands |
 | `st.command.setcondition` | OP | Set conditions |
@@ -181,7 +187,7 @@ world, biome, gamemode, item, money, advancement, playtime
 
 ## Next Steps
 
-- [Interactive Management](Interactive-Management.mdInteractive-Management) - Manage portals with a click-based GUI
-- [Integrations](Integrations.mdIntegrations) - PlaceholderAPI, WorldGuard and more
-- [Examples](Examples.mdExamples) - Real setup examples
+- [Interactive Management](Interactive-Management.md) - Manage portals with a click-based UI
+- [Integrations](Integrations.md) - PlaceholderAPI, WorldGuard and more
+- [Examples](Examples.md) - Real setup examples
 

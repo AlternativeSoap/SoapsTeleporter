@@ -259,14 +259,14 @@ All messages support MiniMessage formatting with gradients, colors, hover text a
 
 ```yaml
 main: com.soaps.teleporters.SoapsTeleporter
-version: 1.0.0
+version: 1.0.1
 name: SoapsTeleporter
 author: AlternativeSoap
 api-version: 1.21
-folia-supported: true
+folia-supported: false
 description: A premium teleportation portal system for PaperMC
 
-softdepend: ["PlaceholderAPI", "Vault", "WorldGuard", "dynmap", "BlueMap"]
+softdepend: ["PlaceholderAPI", "Vault", "WorldGuard", "Lands"]
 
 commands:
   st:
@@ -319,6 +319,6 @@ The messages file uses **MiniMessage** formatting. Here are some basics:
 
 ## Next Steps
 
-- [Configuration](Configuration.mdConfiguration) - What each option does
-- [FAQ](FAQ.mdFAQ) - Common questions
+- [Configuration](Configuration.md) - What each option does
+- [README](README.md) - Main wiki navigation
 

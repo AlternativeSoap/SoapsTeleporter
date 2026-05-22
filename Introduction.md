@@ -4,7 +4,7 @@
 
 SoapsTeleporter is a portal plugin for PaperMC servers. It lets you place portals in your world that players can walk through to teleport somewhere else. Each portal can have its own particles, sounds, costs, conditions and more.
 
-It is designed for Minecraft 1.21+ and supports both Paper and Folia servers.
+It is designed for Minecraft 1.21+ Paper servers and modern Java 21 runtimes.
 
 ---
 
@@ -23,6 +23,7 @@ It is designed for Minecraft 1.21+ and supports both Paper and Folia servers.
 - Adjustable particle count, spread and display interval
 - 3D volumetric rendering that fills the entire portal area
 - Adaptive particle density on busy servers
+- Layered render pipeline with visibility culling and sleep states (1.0.1+)
 
 ### Sounds
 - Per-portal teleport sounds
@@ -41,6 +42,11 @@ It is designed for Minecraft 1.21+ and supports both Paper and Folia servers.
 - Advancement requirements
 - Playtime requirements
 - Nearby player count
+- Optional condition expressions (`AND`/`OR`/`NOT`) for nested logic (1.0.1+)
+
+### Routing and Networks
+- Standard one-to-one connections
+- Multi-destination routing (fixed, random, weighted, permission) (1.0.1+)
 
 ### Economy
 - Charge money to use portals (requires Vault)
@@ -64,14 +70,14 @@ It is designed for Minecraft 1.21+ and supports both Paper and Folia servers.
 - Self-test command for diagnostics
 - Auto-save with configurable interval
 - Hot reload without server restart
+- Runtime diagnostics overlay with render/condition metrics (`/st debug overlay`) (1.0.1+)
 
 ### Integrations
 - **PlaceholderAPI** for scoreboards and chat
 - **Vault** for economy
 - **WorldGuard** for region protection
 - **Lands** for land claim support
-- **GriefPrevention** for claim support
-- **Dynmap** and **BlueMap** for web map markers
+- GriefPrevention and map adapters are reserved for future releases
 
 ---
 
@@ -92,5 +98,5 @@ Players walk into one portal and appear at the other. That's it for a basic setu
 
 ## Next Steps
 
-Head to [Getting Started](Getting-Started.mdGetting-Started) to install the plugin and build your first portal.
+Head to [Getting Started](Getting-Started.md) to install the plugin and build your first portal.
 

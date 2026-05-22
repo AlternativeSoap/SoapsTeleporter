@@ -50,7 +50,7 @@ No extra setup needed. If PlaceholderAPI is installed, placeholders register aut
 
 ---
 
-## Vault (Economy.mdEconomy)
+## Vault ([Economy](Economy.md))
 
 Required for money-based portal costs.
 
@@ -122,9 +122,9 @@ integrations:
 
 ---
 
-## GriefPrevention
+## GriefPrevention (Reserved)
 
-Integrates with GriefPrevention for claim protection.
+Configuration keys exist for compatibility planning, but runtime GriefPrevention integration is not enabled in the current stable release.
 
 ### Config
 
@@ -143,9 +143,9 @@ integrations:
 
 ---
 
-## Dynmap and BlueMap
+## Dynmap and BlueMap (Reserved)
 
-Show portals as markers on your web map.
+Map keys are available in configuration, but marker publishing is currently reserved for a future adapter release.
 
 ### Config
 
@@ -164,7 +164,7 @@ integrations:
 | `show-status` | Display enabled/disabled status on the map |
 | `portal-icon` | Icon name for the marker |
 
-Both Dynmap and BlueMap are supported. The plugin detects which one is installed and uses it automatically.
+Do not enable map integration in production expecting live markers yet.
 
 ---
 
@@ -178,15 +178,15 @@ These are all **optional**. The plugin works fine without any of them:
 | Vault | Economy support |
 | WorldGuard | Region protection |
 | Lands | Land claim integration |
-| GriefPrevention | Claim protection |
-| Dynmap | Web map markers |
-| BlueMap | Web map markers |
+| GriefPrevention | Planned claim adapter |
+| Dynmap | Planned marker adapter |
+| BlueMap | Planned marker adapter |
 
 ---
 
 ## Next Steps
 
-- [Configuration](Configuration.mdConfiguration) - All config options
+- [Configuration](Configuration.md) - All config options
 - [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
-- [Examples](Examples.mdExamples) - Real setup examples
+- [Examples](Examples.md) - Real setup examples
 

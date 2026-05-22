@@ -52,7 +52,7 @@ You can change these in `config.yml` under `portals.limits`.
 
 ### Portal Limits
 
-You can limit how many portals each player can create and how many portals can exist per world. See [Configuration](Configuration.mdConfiguration).
+You can limit how many portals each player can create and how many portals can exist per world. See [Configuration](Configuration.md).
 
 ---
 
@@ -148,13 +148,28 @@ The detection works like this:
 
 ---
 
-## Duplicating Portals
+## Multi-Destination Routing (1.0.1+)
+
+You can configure one portal to route to multiple destinations:
 
 ```
-/st duplicate <source> <newname>
+/st setrouting <portal> <fixed|random|weighted|permission>
+/st setdestinations <portal> <dest1,dest2,...>
 ```
 
-Creates a copy of an existing portal with all its settings. The new portal is placed at your current wand selection.
+Examples:
+
+```
+/st setrouting hub_router random
+/st setdestinations hub_router shops,pvp,farm
+```
+
+Weighted routing:
+
+```
+/st setrouting hub_router weighted
+/st setdestinations hub_router shops|3,pvp|1,farm|2
+```
 
 ---
 
@@ -208,7 +223,7 @@ Shows every portal with:
 
 ## Next Steps
 
-- [Portal Types](Portal-Types.mdPortal-Types) - Standard, RTP and One-Way portals
-- [Particles and Effects](Particles-and-Effects.mdParticles-and-Effects) - Customize how portals look
+- [Portal Types](Portal-Types.md) - Standard, RTP and One-Way portals
+- [Particles and Effects](Particles-and-Effects.md) - Customize how portals look
 - [Commands and Permissions](Commands-and-Permissions.md) - Full command reference
 
